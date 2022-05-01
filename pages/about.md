@@ -10,18 +10,18 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;About the Site" %}
 
 ## About the Collection
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+This site is home to the Personal Collection of Henry Kemp. It contains records and resources chosen by Henry Kemp, who serves as the sole donor and archivist/curator for this collection, in an attempt to represent his life up to the point of creation: May 1, 2022. It is set up in such a way that it can be added to in the future, if desired. The current collection consists of 30 items: some pictures of physical items in the donor's possession, and some actual photographs, all capturing memories that the donor found to be representative of significant time periods, relationships, events, and/or accomplishments in his life. The metadata descriptors of each object have been chosen by the archivist, most following the DublinCore metadata standard of description, with a couple fields added on that the donor felt necessary for the nature of this collection.
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+## About the Site
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+This site is compiled from
+- a CSV file of collected metadata, titled collection-metadata.csv in the GH repository
+- a folder of JPG and JPEG images, contained in the objects folder in the GH repository
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/)
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+It was originally created over the course of the Spring 2022 semester by Henry Kemp, for the class LBSC671: Creating Information Infrastructures at the University of Maryland, College Park. This course is taught by Professor Maggie Dull.
