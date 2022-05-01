@@ -5,8 +5,6 @@ date of origin,Date Received by Donor,
 description,Description,
 subject,Subjects,true
 location,Location,true
-latitude,Latitude
-longitude,Longitude
 contributor,Contributor
 type,Type,
 format,Format,
